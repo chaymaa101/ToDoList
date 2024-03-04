@@ -5,34 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task List</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-"></link>
+
 </head>
 <body>
-
-    <header>
-        <h1>Task List</h1>
-        <form  id="new-task-form"action="">
-            <input type="text" id="new-task-input" placeholder="what do u want to planned?">
-            <input type="submit" id="new-task-submit" value="Add  task">
-        </form>
-    </header>
-    <main>
-        <section class="task-list">
-            <h2>Tasks</h2>
-            <div id="tasks">
-                <!-- <div class="task">
-                    <div class="content">
-                        <input type="text" class="text" value="My shiny task"
-                        readonly>
-                    </div>
-                     <div class="actions">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                     </div>
-                </div> -->
-                
-            </div>
-        </section>
-    </main>
+    <div class="container">
+        <header>
+            
+            <h1><i class="fa-solid fa-list-check"></i>  Task List</h1>
+            <form  id="new-task-form"action="">
+                <input type="text" id="new-task-input" placeholder="what do u want to planned?">
+                <input type="submit" id="new-task-submit" value="Add  task">
+            </form>
+        </header>
+        <main>
+            <section class="task-list">
+                <h2>Tasks</h2>
+                <div id="tasks">
+                    <!-- <div class="task">
+                        <div class="content">
+                            <input type="text" class="text" value="My shiny task"
+                            readonly>
+                        </div>
+                         <div class="actions">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                         </div>
+                    </div> -->
+                    
+                </div>
+            </section>
+        </main>
+        
+    </div>
+    
+    <footer>made by ch101 :)</footer>
    <script src="main.js"></script> 
 </body>
 </html>
